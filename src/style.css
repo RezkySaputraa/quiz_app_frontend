@@ -1,0 +1,253 @@
+input:focus {
+  border: 2px solid #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.background-1 {
+  height: 100vh;
+  background-image: url("/images/auth/white.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-auth {
+  max-width: 75%;
+}
+
+.sign-start {
+  width: 35%;
+}
+
+.overlay-2 {
+  width: 50%;
+  height: 100%;
+  background-image: url("/images/auth/green.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.outer-2 {
+  position: relative;
+}
+
+.scale {
+  transform: scale(0.9);
+}
+
+.height {
+  height: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .height {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .height {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .height {
+    height: auto;
+  }
+}
+
+/* Homepage */
+
+.background-2 {
+  min-height: 100vh;
+  height: auto;
+  background-image: url("/images/home/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progress-container {
+  height: 5px;
+  background-color: #ddd;
+}
+
+.progress-bar {
+  background-color: #969696;
+}
+
+.font-family {
+  font-family: "Suwannaphum", sans-serif;
+}
+
+.background-color {
+  background-color: #0a39b2;
+}
+
+.inner-shadow {
+  -webkit-box-shadow: inset 0 0 4px #000;
+  -moz-box-shadow: inset 0 0 4px #000;
+  box-shadow: inset 0 0 5px #000;
+}
+
+.responsive-text {
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+}
+
+@media screen and (max-width: 575px) {
+  .responsive-text {
+    padding-left: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .responsive-text {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1999px) and (min-width: 992px) {
+  .responsive-text {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .responsive-text {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .responsive-text {
+    padding-left: 54px;
+  }
+}
+
+.responsive-text-inside {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+}
+
+.responsive-text-normal {
+  font-size: clamp(0.78rem, 2vw, 0.93rem);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Alert */
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backround-alert {
+  background-color: #420e59ef;
+}
+
+.inner-shadow-2 {
+  -webkit-box-shadow: inset 0 0 4px #000;
+  -moz-box-shadow: inset 0 0 4px #000;
+  box-shadow: inset 0 0 4px #000;
+}
+
+.responsive-text-normal2 {
+  font-size: clamp(0.73rem, 1vw, 0.87rem);
+}
+
+@media screen and (min-width: 1400px) {
+  .backround-alert {
+    max-width: 400px;
+  }
+}
+
+/* Memorize */
+
+.background-3 {
+  min-height: 100vh;
+  height: auto;
+  background-color: #071c51;
+}
+
+.tableMy {
+  border-radius: 15px;
+  outline: rgb(255, 255, 255) solid 1px;
+  overflow: hidden;
+}
+
+.responsive-text-normal-memo {
+  font-size: clamp(0.78rem, 1.5vw, 1.1rem);
+}
+
+.responsive-text-normal-head {
+  font-size: clamp(0.87rem, 1.8vw, 1.2rem);
+}
+
+.responsive-text-normal-text {
+  font-size: clamp(1.2rem, 3vw, 2.3rem);
+}
+
+.responsive-text-normal-time {
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
+}
+
+.responsive-text-normal-rightarrow {
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+}
+
+.bg-memo-head {
+  background-color: #071c51;
+}
+
+.bg-memo {
+  background-color: #182b5a;
+}
+
+/* batas */
+
+.responsive-text-normal-textinstruc {
+  font-size: clamp(0.84rem, 1.7vw, 1.2rem);
+}
+
+/* question */
+
+.responsive-text-normal-textquestion {
+  font-size: clamp(0.9rem, 2.3vw, 1.4rem);
+}
+
+.responsive-text-normal-headqu {
+  font-size: clamp(0.92rem, 1.8vw, 1.3rem);
+}
+
+/* result */
+
+.background-4 {
+  background-color: #5c198f52;
+}
+
+.background-5 {
+  background-color: #300641db;
+}
+
+.text-result {
+  color: #5b198f;
+}
+
+.background-button-result {
+  background-color: #513c5e;
+}
+
+.responsive-text-normal-result {
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
+}
