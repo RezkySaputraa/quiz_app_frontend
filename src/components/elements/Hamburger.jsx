@@ -6,7 +6,7 @@ function Hamburger() {
       const result = await logout();
 
       if (result) {
-        localStorage.clear()
+        localStorage.clear();
         sessionStorage.clear();
         window.location.replace("/");
       }

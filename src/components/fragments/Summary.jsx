@@ -69,7 +69,7 @@ function Summary() {
       const result = await logout();
 
       if (result) {
-        localStorage.clear()
+        localStorage.clear();
         sessionStorage.clear();
         window.location.replace("/");
       }
@@ -85,10 +85,7 @@ function Summary() {
           <div className="text-white">
             <h4 className="fw-bold responsive-text-head">Summary :</h4>
             <p className=" mb-0 responsive-text-normal-result">
-              Nice work! Your result is currently
-            </p>
-            <p className="responsive-text-normal-result col-xxl-10">
-              being reviewed and will be announced soon.
+              Nice work! Your result is currently menjawab benar {time.correct} dari {time.total} soal
             </p>
           </div>
           <div className="d-flex justify-content-between">
